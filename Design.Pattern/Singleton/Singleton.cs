@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Design.Pattern
 {
     /// <summary>
-    /// 单例模式
+    /// 单例模式,带线程锁
     /// </summary>
     public sealed class Singleton
     {
@@ -31,5 +29,21 @@ namespace Design.Pattern
                 }
             }
         }
+    }
+
+
+    /// <summary>
+    /// 使用Lazy实现单例模式
+    /// </summary>
+    public sealed class SingletonUseLazy
+    {
+        private static readonly Lazy<SingletonUseLazy> _lazy =
+            new Lazy<SingletonUseLazy>(() => new SingletonUseLazy());
+
+        private SingletonUseLazy() 
+        {
+        }
+
+        public static SingletonUseLazy Instance { get { return _lazy.Value; } }
     }
 }
