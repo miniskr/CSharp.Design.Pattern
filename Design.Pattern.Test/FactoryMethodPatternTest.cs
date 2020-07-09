@@ -6,7 +6,7 @@ namespace Design.Pattern.Test
     public class FactoryMethodPatternTest
     {
         [Fact]
-        public void TestFactory()
+        public void FactoryMethodTest()
         {
             CardFactory factory = null;
 
