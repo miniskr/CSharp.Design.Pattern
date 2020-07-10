@@ -1,7 +1,4 @@
 ﻿using Design.Pattern.SampleFactoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace Design.Pattern.Test
