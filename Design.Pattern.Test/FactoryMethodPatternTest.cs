@@ -18,7 +18,7 @@ namespace Design.Pattern.Test
             Assert.False(moneyCreditCard is TitaniumCreditCard);
             Assert.False(moneyCreditCard is PlatinumCreditCard);
 
-
+            
             factory = new TitaniumFactory(100000, 500);
 
             var titaniumCreditCard = factory.GetCreditCard();
@@ -30,12 +30,11 @@ namespace Design.Pattern.Test
 
             factory = new PlatinumFactory(500000, 1000);
 
-            var PlatinumCreditCard = factory.GetCreditCard();
+            var platinumCreditCard = factory.GetCreditCard();
 
-            Assert.False(PlatinumCreditCard is MoneyBackCreditCard);
-            Assert.False(PlatinumCreditCard is TitaniumCreditCard);
-            Assert.True(PlatinumCreditCard is PlatinumCreditCard);
-
+            Assert.False(platinumCreditCard is MoneyBackCreditCard);
+            Assert.False(platinumCreditCard is TitaniumCreditCard);
+            Assert.True(platinumCreditCard is PlatinumCreditCard);
         }
     }
 }
