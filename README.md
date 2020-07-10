@@ -4,4 +4,4 @@
 
 ## 创建型
 
-1. [单例模式(Singleton Pattern)](./CSharp.Design.Pattern/blob/master/Design.Pattern/Singleton/Singleton.cs)
+1. [单例模式(Singleton Pattern)](./Design.Pattern/Singleton/Singleton.cs)
