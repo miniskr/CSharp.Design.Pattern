@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design.Pattern", "Design.Pattern\Design.Pattern.csproj", "{04E11226-E124-4280-9607-A8D9DF2DADC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Pattern.Test", "Design.Pattern.Test\Design.Pattern.Test.csproj", "{824AC580-46A9-4180-9F9D-BD0C33D145E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design.Pattern.Test", "Design.Pattern.Test\Design.Pattern.Test.csproj", "{824AC580-46A9-4180-9F9D-BD0C33D145E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61BC0984-39F5-44C1-926B-77C2BB1033FA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
