@@ -7,7 +7,7 @@
 1. [单例模式(Singleton Pattern)](./Design.Pattern/Singleton/Singleton.cs)
 2. [抽象工厂模式(Abstract Pattern)](./Design.Pattern/AbstractFactoryPattern)
 3. [工厂方法模式(Factory Method Pattern)](./Design.Pattern/FactoryMethodPattern)
-4. 建造者模式(Builder Pattern)
+4. [建造者模式(Builder Pattern)](./Design.Pattern/BuilderPattern)
 5. 原型模式(Prototype Pattern)
 
 ## 结构型
