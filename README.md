@@ -13,7 +13,7 @@
 ## 结构型
 
 6. 适配器模式(Adapter Pattern)
-7. 桥接模式(Bridge Pattern)
+7. [桥接模式(Bridge Pattern)](./Design.Pattern/BridgePattern)
 8. 装饰模式(Decorator Pattern)
 9. 组合模式(Composite Pattern)
 10. 外观模式(Facade Pattern)

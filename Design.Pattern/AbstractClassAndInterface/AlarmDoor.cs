@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Design.Pattern.AbstractClassAndInterface
 {
@@ -13,7 +11,7 @@ namespace Design.Pattern.AbstractClassAndInterface
 
         public override void Close()
         {
-            Console.WriteLine("The door is closed.")
+            Console.WriteLine("The door is closed.");
         }
 
         
