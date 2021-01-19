@@ -18,6 +18,8 @@ namespace Design.Pattern.Test
             infraredT90.Shoot();
             var amphibious = new AmphibiousFunctionTakn(t90);
             var infAndAmphi = new AmphibiousFunctionTakn(infraredT90);
+            infAndAmphi.Shoot();
+            infAndAmphi.Run();
 
             Assert.NotNull(t90);
             Assert.Equal("T90", t90.Name);

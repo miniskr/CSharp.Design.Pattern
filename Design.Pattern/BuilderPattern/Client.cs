@@ -19,6 +19,8 @@ namespace Design.Pattern.BuilderPattern
                 houseType += "ChineseBuilder";
             else if (No == "2")
                 houseType += "RomanBuilder";
+            else
+                throw new InvalidOperationException("Invalid input option.");
 
             Builder builder = (Builder)Assembly.Load("House").CreateInstance(houseType);
 

@@ -17,7 +17,7 @@
 8. [装饰模式(Decorator Pattern)](./Design.Pattern/DecoratorPattern)
 9. 组合模式(Composite Pattern)
 10. 外观模式(Facade Pattern)
-11. 享元模式(Flyweight Paggern)
+11. [享元模式(Flyweight Paggern)](./Design.Pattern/FlyweightPaggern)
 12. 代理模式(Proxy Pattern)
 
 ## 行为型
@@ -25,7 +25,7 @@
 13. 模板方法(Template Method)
 14. 命令模式(Command Pattern)
 15. 迭代器模式(Iterator Pattern)
-16. 观察者模式(Observer Pattern)
+16. [观察者模式(Observer Pattern)](./Design.Pattern/ObserverPattern)
 17. 解释器模式(Interpreter Pattern)
 18. 中介者模式(Mediator Pattern)
 19. 职责链模式(Chain of Responsibility Pattern)
